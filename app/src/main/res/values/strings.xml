@@ -1,0 +1,37 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">LoginApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="swipe_left_for_register">Swipe Left for Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Username</string>
+    <string name="E_mail">Email</string>
+    <string name="admin">admin</string>
+    <string name="View">View</string>
+    <string name="tag">This is for User login</string>
+    <string name="tag1">Fill appropriate information</string>
+    <string name="swipe_right_for_login">Swipe Right for Login</string>
+    <string name="register">Register</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+    <string name="Form">Form</string>
+    <string name="DOB">Date of Birth</string>
+    <string name="address">Address</string>
+    <string name="clgname">College name</string>
+    <string name="percent">percentage</string>
+    <string name="exa">Extra Curriculum activity</string>
+    <string name="Bloodgrp">Blood group</string>
+    <string name="qulf">Last Qualification</string>
+    <string name="Vaccination">Vaccination</string>
+    <string name="date">date</string>
+    <string name="refid">Refrence ID</string>
+    <string name="source">Source</string>
+    <string name="destination">Destination</string>
+    <string name="track">Show Track</string>
+    <string-array name="userlogin">
+        <item>User</item>
+        <item>Admin</item>
+    </string-array>
+
+</resources>

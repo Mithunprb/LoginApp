@@ -1,0 +1,226 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="10dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".RegisterFragment">
+
+        <TextView
+            android:id="@+id/form"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Form"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/indigo_daisy"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/subform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tag1"
+            android:textSize="17sp"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginStart="25dp"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/form_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/et_custom"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="@string/your_name"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:textSize="15sp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/form_dob"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/DOB"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:padding="15dp"
+            android:fontFamily="@font/roboto_regular"
+            android:inputType="date"
+            android:background="@drawable/et_custom"
+            android:textSize="15sp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/form_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/E_mail"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:padding="15dp"
+            android:fontFamily="@font/roboto_regular"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/et_custom"
+            android:textSize="15sp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/form_addr"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:autofillHints=""
+            android:background="@drawable/et_custom"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="@string/address"
+            android:inputType="textMultiLine"
+            android:maxLength="2000"
+            android:maxLines="4"
+            android:padding="15dp"
+            android:textSize="15sp"
+            tools:ignore="TextContrastCheck" />
+        <EditText
+            android:id="@+id/formclgname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/clgname"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:padding="15dp"
+            android:fontFamily="@font/roboto_regular"
+            android:inputType="text"
+            android:background="@drawable/et_custom"
+            android:textSize="15sp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/form_perc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/et_custom"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="@string/percent"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textSize="15sp"
+            android:autofillHints="" />
+        <EditText
+            android:id="@+id/form_eca"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/et_custom"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="@string/exa"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textSize="15sp"
+            android:autofillHints="" />
+        <EditText
+            android:id="@+id/form_bloodgroup"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/et_custom"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="@string/Bloodgrp"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textSize="15sp"
+            android:autofillHints="" />
+        <EditText
+            android:id="@+id/last_qul"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/et_custom"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="@string/qulf"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textSize="15sp"
+            android:autofillHints="" />
+        <EditText
+            android:id="@+id/vaccine"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/et_custom"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="@string/Vaccination"
+            android:inputType="textCapCharacters"
+            android:padding="15dp"
+            android:textSize="15sp"
+            android:autofillHints="" />
+        <EditText
+            android:id="@+id/refid"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/et_custom"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="@string/refid"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textSize="15sp"
+            android:autofillHints="" />
+        <EditText
+            android:id="@+id/refid_date"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/et_custom"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="@string/date"
+            android:inputType="date"
+            android:padding="15dp"
+            android:textSize="15sp"
+            android:importantForAutofill="no" />
+
+
+        <Button
+            android:id="@+id/btn_formregister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/btn_custom"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/register"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>
